@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+  </PropertyGroup>
+
+
+  <PropertyGroup>
+    <AssemblyName>CakeAliases.Versioning</AssemblyName>
+    <PackageId>CakeAliases.Versioning</PackageId>
+    <PackageVersion>1.0.0</PackageVersion>
+    <RootNamespace>CakeAliases.Versioning</RootNamespace>
+    <PackageDescription> nuget versioning generator.</PackageDescription>
+    <PackageTags>cake addin semver</PackageTags>
+  </PropertyGroup>
+
+
+  <ItemGroup>
+    <PackageReference Include="Cake.Core" Version="0.33.0" />
+  </ItemGroup>
+
+</Project>

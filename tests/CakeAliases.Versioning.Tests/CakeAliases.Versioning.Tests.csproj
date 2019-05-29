@@ -16,7 +16,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\src\CakeAliases.BranchesSemVer\CakeAliases.BranchesSemVer.csproj" />
+    <ProjectReference Include="..\..\src\CakeAliases.NugetVersioning\CakeAliases.Versioning.csproj" />
   </ItemGroup>
 
 </Project>

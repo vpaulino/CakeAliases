@@ -4,12 +4,12 @@ using System;
 using System.Collections.Generic;
 using System.Text.RegularExpressions;
 
-namespace CakeAliases.BranchesSemVer
+namespace CakeAliases.Versioning
 {
-    public static class CompleteSemVerGenerator
+    public static class NugetVersioning
     {
         [CakeMethodAlias]
-        public static string GetVersion(this ICakeContext context, string semverVersion, string branchName = "Main", string buildNumber = null)
+        public static string GetVersion(this ICakeContext context, string semverVersion, string branchName = "master", string buildNumber = null)
         {
             string semVerRegEx = "((?:0|[1-9]\\d*)\\.(?:0|[1-9]\\d*)\\.(?:0|[1-9]\\d*))";
             string alphaSemVerPattern = "((?:0\\d*)\\.(?:0|[1-9]\\d*)\\.(?:0|[1-9]\\d*))";
