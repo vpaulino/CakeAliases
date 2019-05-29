@@ -3,9 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.28922.388
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CakeAliases.BranchesSemVer", "CakeAliases.BranchesSemVer\CakeAliases.BranchesSemVer.csproj", "{2A6D9282-1860-43D3-BA4C-AF13EA7F9DB6}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Src", "Src", "{2024B73D-D225-4B4C-B755-227128C50A36}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CakeAliases.BranchesSemVer.Tests", "CakeAliases.BranchesSemVer.Tests\CakeAliases.BranchesSemVer.Tests.csproj", "{93DAD097-EAB3-4A1F-803E-AC81752BDEDB}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{0798A1CE-E414-498E-89E3-6DCBC9F9538D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CakeAliases.BranchesSemVer", "src\CakeAliases.BranchesSemVer\CakeAliases.BranchesSemVer.csproj", "{B17EDD6A-C410-471E-AC3A-3153EEA3687D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CakeAliases.BranchesSemVer.Tests", "tests\CakeAliases.BranchesSemVer.Tests\CakeAliases.BranchesSemVer.Tests.csproj", "{5E25C790-13F4-49E0-AB82-E0D6380FD014}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,17 +17,21 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{2A6D9282-1860-43D3-BA4C-AF13EA7F9DB6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{2A6D9282-1860-43D3-BA4C-AF13EA7F9DB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{2A6D9282-1860-43D3-BA4C-AF13EA7F9DB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{2A6D9282-1860-43D3-BA4C-AF13EA7F9DB6}.Release|Any CPU.Build.0 = Release|Any CPU
-		{93DAD097-EAB3-4A1F-803E-AC81752BDEDB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{93DAD097-EAB3-4A1F-803E-AC81752BDEDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{93DAD097-EAB3-4A1F-803E-AC81752BDEDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{93DAD097-EAB3-4A1F-803E-AC81752BDEDB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B17EDD6A-C410-471E-AC3A-3153EEA3687D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B17EDD6A-C410-471E-AC3A-3153EEA3687D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B17EDD6A-C410-471E-AC3A-3153EEA3687D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B17EDD6A-C410-471E-AC3A-3153EEA3687D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E25C790-13F4-49E0-AB82-E0D6380FD014}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E25C790-13F4-49E0-AB82-E0D6380FD014}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E25C790-13F4-49E0-AB82-E0D6380FD014}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E25C790-13F4-49E0-AB82-E0D6380FD014}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B17EDD6A-C410-471E-AC3A-3153EEA3687D} = {2024B73D-D225-4B4C-B755-227128C50A36}
+		{5E25C790-13F4-49E0-AB82-E0D6380FD014} = {0798A1CE-E414-498E-89E3-6DCBC9F9538D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4CDF5544-F6E7-4E37-9E15-B2CFD7938A64}
